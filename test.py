@@ -26,3 +26,19 @@ import logging
 # logging.basicConfig(level=numeric_level)
 # logging.basicConfig(filename='example.log', filemode='w', level=logging.DEBUG)
 
+# Logging variable data
+# logging.warning('%s before you %s', 'Look', 'leap!')
+
+# Changing the format of displayed messages
+# logging.basicConfig(format='%(levelname)s:%(message)s', level=logging.DEBUG)
+# logging.debug('This message should appear on the console')
+# logging.info('So should this')
+# logging.warning('And this, too')
+
+# Displaying the date/time in messages
+# logging.basicConfig(format='%(asctime)s %(message)s')
+# logging.warning('is when this event was logged.')
+
+# logging.basicConfig(format='%(asctime)s %(message)s', datefmt='%m/%d/%Y %I:%M:%S %p')
+# logging.warning('is when this event was logged.')
+
